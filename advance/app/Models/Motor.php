@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+
 use App\Interfaces\Kendaraan;
 
+// class motor turunan dari class Kendaraan
 class Motor implements Kendaraan
 {
 	public function hidupkanMesin()
